@@ -2,66 +2,90 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <title>Ashish Chavan | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Home Section -->
-    <section id="home">
-        <img src="https://via.placeholder.com/150" alt="Profile Photo">
-        <h1>Hello, I'm a Web Developer</h1>
-        <p>I build clean, responsive, and user-friendly web applications.</p>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>Skills</h2>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Ashish Chavan</div>
         <ul>
-            <li>HTML, CSS, JavaScript</li>
-            <li>Responsive Web Design</li>
-            <li>Basic JavaScript Logic & DOM Manipulation</li>
-            <li>Version Control (Git)</li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Hello, I'm <span>Ashish Chavan</span></h1>
+        <h2>Computer Science Student | Developer</h2>
+        <p>CGPA: <strong>8.75</strong></p>
     </section>
 
-    <!-- About Me Section -->
+    <!-- About -->
     <section id="about">
         <h2>About Me</h2>
         <p>
-            I am a passionate web developer with a strong interest in frontend development.
-            I enjoy creating user-friendly interfaces and learning new technologies.
-        </p>
-
-        <h3>Education</h3>
-        <p>Bachelor’s Degree in Computer Science (or your actual course)</p>
-
-        <h3>Professional Experience</h3>
-        <p>
-            Currently gaining hands-on experience through internships and personal projects
-            focused on HTML, CSS, and JavaScript.
+            I am a Computer Science student focused on strong fundamentals in Data Structures,
+            Problem Solving, and Software Development. I enjoy building practical projects
+            and continuously improving my technical skills.
         </p>
     </section>
 
-    <!-- Projects Section -->
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Technical Skills</h2>
+
+        <div class="skills-container">
+            <div class="skill-box">
+                <h3>Programming Languages</h3>
+                <p>C++, Java</p>
+            </div>
+
+            <div class="skill-box">
+                <h3>Web Development</h3>
+                <p>HTML, CSS, JavaScript</p>
+            </div>
+
+            <div class="skill-box">
+                <h3>AI & Machine Learning</h3>
+                <p>Basic ML Concepts, Computer Vision</p>
+            </div>
+
+            <div class="skill-box">
+                <h3>Problem Solving</h3>
+                <p>Data Structures & Algorithms, Logical Thinking</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
     <section id="projects">
         <h2>Projects</h2>
-        <ul>
-            <li>Interactive Navigation Menu</li>
-            <li>Stopwatch Web Application</li>
-            <li>Weather App using API</li>
-            <li>Tic-Tac-Toe Game</li>
-        </ul>
+
+        <div class="project-box">
+            <h3>Tic Tac Toe Game</h3>
+            <p>
+                Developed a classic Tic Tac Toe game with win detection logic 
+                and interactive UI using HTML, CSS, and JavaScript.
+            </p>
+        </div>
+
+        <div class="project-box">
+            <h3>Body Posture Detection System</h3>
+            <p>
+                Built a real-time posture detection system using computer vision 
+                techniques to monitor sitting posture and provide feedback.
+            </p>
+        </div>
     </section>
 
-    <!-- Accomplishments Section -->
-    <section id="achievements">
-        <h2>Accomplishments</h2>
-        <ul>
-            <li>Completed Frontend Development Internship Tasks</li>
-            <li>Built multiple JavaScript-based projects</li>
-        </ul>
-    </section>
+   
 
+    <script src="script.js"></script>
 </body>
 </html>
